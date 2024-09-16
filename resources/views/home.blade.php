@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('Components.layout')
 
 @section('title', 'CNW | Home')
 
