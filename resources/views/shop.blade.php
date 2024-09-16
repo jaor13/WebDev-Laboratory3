@@ -1,19 +1,12 @@
-<x-layout title="CNW | Shop">
-    <div class="container mt-5">
-        <br>
-        <h1 class="text-center">Our Bouquets</h1>
-        <div class="row mt-4">
-            <div class="col-md-4 mb-custom"> 
-                <div class="card">
-                <img src="{{ asset('asset/images/1.jpg') }}" class="card-img-top" alt="Bouquet 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Bouquet 1</h5>
-                        <p class="card-text">A stunning mix of roses and daisies.</p><br>
-                        <p class="card-text"><strong>Price:</strong> P400</p>
-                        <a href="#" class="btn btn-shop-now btn-lg">Buy Now</a>
-                    </div>
-                </div>
-            </div>
+@extends('Components.layout')
+
+@section('title', 'CNW | Shop')
+
+@section('content')
+<div class="container mt-5">
+    <br>
+    <h1 class="text-center">Our Bouquets</h1>
+    <div class="row mt-4">
             <div class="col-md-4 mb-custom">
                 <div class="card">
                 <img src="{{ asset('asset/images/2.jpg') }}" class="card-img-top" alt="Bouquet 2">
@@ -71,4 +64,3 @@
             </div>
         </div>
     </div>
-</x-layout>
